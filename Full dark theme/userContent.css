@@ -196,7 +196,7 @@ input[type=number], input[type=search], input[type=tel], input[type=url], textar
 .tab-middle, .treecol-text {color: #FFF !important}
 
 /* This part covers all the dialog boxes backgrounds and buttons */
-dialog, window, .prefpane, 
+dialog, window:not(#aboutDialog), .prefpane,
 .prefwindow, .windowDialog {
  	background-color: #202020 !important;
  	color: #ccc !important}
