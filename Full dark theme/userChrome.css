@@ -250,7 +250,7 @@ findbar .findbar-find-previous:active, findbar .findbar-find-next:active {
 /* Color for most dialogs */
 dialog, dialog caption, dialog select, .tabmodalprompt-buttonContainer  {
   -moz-appearance: none !important;
-  background-color: #333 !important;
+  background-color: #333;
   color: #ccc !important}
 
 #printPageSetupDialog caption, .tabmodalprompt-mainContainer {background-color: #444 !important}
