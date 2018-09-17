@@ -29,6 +29,7 @@ To use, instead of "none;", type: url("URL-OF-THE-IMAGE-GOES-HERE"); <- Don't fo
 	--in-content-page-background: #202020 !important;
 	--in-content-text-color: #ccc !important;
 	--in-content-box-background: #444 !important;
+	--in-content-box-background-odd: #353535 !important;
 	--in-content-box-background-hover: #555 !important;
 	--in-content-box-background-active: #333 !important;
 	--in-content-box-border-color: #777 !important;
