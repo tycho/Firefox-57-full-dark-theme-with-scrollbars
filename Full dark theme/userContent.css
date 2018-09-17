@@ -841,6 +841,10 @@ menuitem[disabled="true"],
 menu[disabled="true"] {color: #777 !important}
 	
 /* This changes the color on hover of the context-menu items */
+menuitem,
+menu {
+	-moz-appearance: none !important;}
+
 menuitem:hover,
 menu:hover, #placesMenu > menu[open="true"] {
 	-moz-appearance: none !important;
