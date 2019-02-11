@@ -140,7 +140,7 @@ treechildren::-moz-tree-row(selected), dialog richlistitem[selected] {
 /* You can add the selectors .bookmark-item:not([container=true]) .menu-iconic-icon for 
 icons inside the dropdown menus as well, and toolbarbutton.bookmark-item:not([container=true]) .toolbarbutton-icon
 for icons on the bookmarks bar under the url bar. Just make sure to put commas after each selector */
-.tab-icon-image {
+/*.tab-icon-image {
   filter: drop-shadow(0 0 3px #fff)}
 
 /* END OF GENERAL COLORS */
