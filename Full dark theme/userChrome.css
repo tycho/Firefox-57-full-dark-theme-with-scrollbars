@@ -162,8 +162,10 @@ dialog richlistitem[clear-site-data-cookies-with-data] {border: 1px solid red !i
 /* GLOW EFFECT ON TAB ICON */
 /* toolbarbutton.bookmark-item:not([container=true]) .toolbarbutton-icon
 for icons on the bookmarks bar under the url bar */
+/*
 .tab-icon-image, .bookmark-item:not([container=true]) .menu-iconic-icon {
   filter: drop-shadow(0 0 3px #fff);}
+*/
 
 /* END OF GENERAL COLORS */
 
