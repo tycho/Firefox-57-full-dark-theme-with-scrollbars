@@ -1,6 +1,6 @@
 /* You can find an updated version here: https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme */
 /* Made by Izheil */
-/* Last updated: 17/05/2020 */
+/* Last updated: 19/06/2020 */
 
 /* This part imports the Addons file if there is one, so that you don't have to edit the dynamic URL
 from the addons rules every time we update anything here */
@@ -288,8 +288,10 @@ only the images */
 message-bar:not(.alert) .container, message-bar:not(.alert) {background: #444 !important}
 
 /* About:preferences option select dialogs. Children on hover and select */
-#permissionsBox > richlistitem:hover {background-color: rgba(255,255,255,0.1) !important}
-#permissionsBox > richlistitem[selected="true"] {background-color: rgba(255,255,255,0.2) !important}
+#permissionsBox > richlistitem:hover, 
+#sitesList > richlistitem:hover {background-color: rgba(255,255,255,0.1) !important}
+#permissionsBox > richlistitem[selected="true"],
+#sitesList > richlistitem[selected="true"] {background-color: rgba(255,255,255,0.2) !important}
 
 /*------ LOG BROWSING PAGE (about:sync-log) ------*/
 @-moz-document url-prefix(about:sync-log) {
@@ -588,6 +590,20 @@ input[type=text] {color: #aaa !important}
 .actions {border-top: none !important}
 
 .form-wrapper input:hover {border: 1px solid #0084ff !important}
+
+/* Empty top sites section */
+.section-empty-state {
+	border-color: rgba(60,60,60,0.5) !important;
+}
+
+.empty-state-message {
+	background-color: rgba(0,0,0,0.7);
+	padding: 1em;
+	border-radius: 12px;
+	color: #ddd !important;
+}
+
+.empty-state-icon {fill: rgba(255,255,255,0.5) !important}
 
 /* This adds a background image of your choice in the main area 
 Delete the final /* to use -> */
@@ -1641,7 +1657,7 @@ a:active:not(.sumo-button) {
 
 .selected a.btn-page, th {color: #fff !important}
 
-.note, .card--callout, .document-vote, .card, .sg-b-p, .mzp-c-menu-panel,
+.note, .card--callout, .card, .sg-b-p, .mzp-c-menu-panel,
 .mzp-js-details-wrapper, .tag, #toc {
 	background-color: #333 !important;
 	border-color: #888 !important;
@@ -1701,6 +1717,8 @@ input[type="text"]:not(:focus):not(:hover) {border-color: #666 !important}
 .pick-a-way a:hover, .sidebar-nav .selected  {background-color: rgba(255,255,255,0.05) !important}
 
 .is-callout-bg {background-color: #570 !important}
+
+.sumo-scam-alert--content {background-color: #650 !important}
 
 /* Select boxes coloring */
 select {

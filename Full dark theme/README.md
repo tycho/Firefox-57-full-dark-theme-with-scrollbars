@@ -18,13 +18,14 @@ Following the method described here, you will be able to give dark colors to fir
 * Type `about:support` in your URL bar, then go to that page.
 * Click the "open folder" button inside the "profile folder" section.
 * Create a folder named "chrome" in your profile folder if it doesn't exist yet.
-* Place all files (.css files) from this folder to the "chrome" folder.
+* [Download the repository files](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/archive/master.zip) and uncompress them anywhere you like.
+* Place all files (.css files) from the "Full dark theme" folder to your "chrome" folder.
 * **Optional**: If you want to use the custom dark scrollbars, or dark tooltips, you will also have to enable JS injection using the installer in [releases](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases) (just don't select any function to install when patching if you don't need them), or patch your firefox manually with the method described [here](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Multirow%20and%20other%20functions/JS%20Loader).
 * **Optional**: Edit userChrome.css to change any style you aren't fully convinced with (or to give a different style to the unread tabs, etc...).
 * **Optional**: You can also edit userChrome.css to change the background of the `about:home` page.
 * **Optional**: If you want a different style for the scrollbars or the tooltips, use any of the alternatives on the [Alternative scrollbars & tooltips](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme/Alternative%20scrollbars%20%26%20tooltips) folder.
 * **Optional**: If you want the default scrollbar style (userChrome still paints it dark), or white tooltips, don't copy the relevant CSS files for them.
-* **Optional**: If you want a dark version of either of the addons mentioned in the [addons dark themes section](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme#addon-dark-themes) in the front page of this repository, change the UUID's of them inside `addons.css`. An explanation on how to do so is given inside the file.
+* **Optional**: If you want a dark version of either of the addons mentioned in the [addons dark themes section](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme#addon-dark-themes) in the front page of this repository, change the UUID's of them inside `addons.css`. You can use the `Addons-UUID-replacer-*` executable to automate this (unless you are on Mac, where you will have to install python and run the python file inside `installers/Addons UUID replacer` to get the same result). If on Linux, make sure to run it as a regular user, **not as sudo**.
 
 If you have copied everything right, the folders structure should look something like this:
 Structure of [the chrome folder](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/wiki/Chrome-and-Root-folders#the-chrome-folder) files inside your profile folder:

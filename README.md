@@ -11,16 +11,17 @@ You can use it to fully change the colors of most of firefox UI to dark-gray col
 
 If you want to know how to change some colors of the theme, check the [wiki](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/wiki/Editting-CSS-files).
 
-### Last update: 17/05/2020
+### Last update: 28/06/2020
 
 Files updated:
-* **Addons.css**: Added a dark theme for [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) and [Forget Me Not](https://addons.mozilla.org/en-US/firefox/addon/forget_me_not/) addons.
+* **userChrome.css**: Fixed some issues on nightly. Also changed context menu borders and separators to gray.
 
-### Pre-Last update: 12/05/2019
+### Pre-Last update: 24/06/2019
 
 Files updated:
-* **Addons.css**: Updated [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)'s theme.
-* **userContent.css**: Fixed some colors in `about:home` search suggestions box.
+* **Addons.css**: Removed Popup Ultimate Blocker theme from addons.css, since the same functionability is already available on [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), as well as undo closed tab (revived) button, since a better alternative ([Undo close tab](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/)) already exists.
+* __Addons-UUID-replacer-*__ Added a UUID automatic replacer for the `addons.css` file. You can find it inside the `Full dark theme` folder.
+
 
 ### A note on people looking to replace some Tab Mix Plus features:
 You can find some of the basic settings that can be simulated through `about:config`, some userscripts, and some addons [here](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/wiki/Useful-about:config-settings#some-tab-mix-plus-features).
@@ -68,13 +69,12 @@ Here is a list of the themed addons:
 * [Notifier for Gmail (restartless)](https://addons.mozilla.org/en-US/firefox/addon/gmail-notifier-restartless/)
 * [Multi-accounts containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 * [OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/)
-* [Popup Blocker Ultimate](https://addons.mozilla.org/en-US/firefox/addon/popup-blocker-ultimate/)
 * [Privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 * [Tab session manager](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
 * [Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
 * [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 * [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
-* ~~[Undo closed tabs button](https://addons.mozilla.org/en-US/firefox/addon/undo-closed-tabs-revived/)~~ -> You should use [Undo close tab](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/) instead (which requires no theming).
+* ~~Undo closed tabs button~~ -> Use [Undo close tab](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/) instead (which is more updated and requires no theming).
 * [Video Download Helper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
 * [Viewhance](https://addons.mozilla.org/en-US/firefox/addon/viewhance/)
 
