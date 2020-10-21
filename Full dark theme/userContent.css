@@ -4,7 +4,7 @@
 
 /* This part imports the Addons file if there is one, so that you don't have to edit the dynamic URL
 from the addons rules every time we update anything here */
-@import 'addons.css';
+/*@import 'addons.css';
 
 /*------ COMMON PART FOR ALL FIREFOX PAGES ------*/
 :root {
