@@ -103,8 +103,8 @@ but is disabled by default in this theme (Disable for the default tab line color
   --Window-bg: #353535;
 
   /* Customization page */
-  --toolbar-bgcolor: #303030 !important;
-  --toolbar-non-lwt-bgcolor: #303030 !important;
+  --toolbar-bgcolor: #000 !important;
+  --toolbar-non-lwt-bgcolor: #000 !important;
   --toolbar-non-lwt-textcolor: #fff !important;
 
   /* These ones are used for the read/unread tabs styling. For italic rules use 
